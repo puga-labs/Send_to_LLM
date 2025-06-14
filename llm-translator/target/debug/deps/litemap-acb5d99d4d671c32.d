@@ -1,0 +1,11 @@
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/liblitemap-acb5d99d4d671c32.rmeta: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs
+
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/liblitemap-acb5d99d4d671c32.rlib: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs
+
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/litemap-acb5d99d4d671c32.d: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs
+
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/lib.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/map.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/mod.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/slice_impl.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/litemap-0.8.0/src/store/vec_impl.rs:

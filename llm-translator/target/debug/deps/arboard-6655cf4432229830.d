@@ -1,0 +1,11 @@
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/libarboard-6655cf4432229830.rmeta: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/common.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/x11.rs
+
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/libarboard-6655cf4432229830.rlib: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/common.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/x11.rs
+
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/arboard-6655cf4432229830.d: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/common.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/mod.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/x11.rs
+
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/lib.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/common.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/mod.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/mod.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arboard-3.5.0/src/platform/linux/x11.rs:

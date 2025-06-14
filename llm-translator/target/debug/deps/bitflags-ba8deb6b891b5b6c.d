@@ -1,0 +1,12 @@
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/libbitflags-ba8deb6b891b5b6c.rmeta: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/iter.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/parser.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/traits.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/public.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/internal.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/external.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/external/serde.rs
+
+/mnt/c/Users/Evgeny Pugachev/Desktop/scripts/Send_to_LLM/llm-translator/target/debug/deps/bitflags-ba8deb6b891b5b6c.d: /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/lib.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/iter.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/parser.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/traits.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/public.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/internal.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/external.rs /home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/external/serde.rs
+
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/lib.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/iter.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/parser.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/traits.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/public.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/internal.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/external.rs:
+/home/puga/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.9.1/src/external/serde.rs:

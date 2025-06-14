@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Translator Settings</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <div class="settings-container">
+        <header>
+            <h1>LLM Translator Settings</h1>
+            <button id="close-btn" class="close-btn" aria-label="Close">×</button>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="general">General</button>
+            <button class="tab-btn" data-tab="api">API</button>
+            <button class="tab-btn" data-tab="hotkeys">Hotkeys</button>
+            <button class="tab-btn" data-tab="prompts">Prompts</button>
+            <button class="tab-btn" data-tab="limits">Limits</button>
+        </nav>
+
+        <form id="settings-form">
+            <!-- General Tab -->
+            <div class="tab-content active" id="general-tab">
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="auto-start" name="autoStart">
+                        Start with system
+                    </label>
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="show-notifications" name="showNotifications">
+                        Show notifications
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="preserve-clipboard" name="preserveClipboard">
+                        Preserve clipboard content after translation
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="auto-split-text" name="autoSplitText">
+                        Automatically split long texts
+                    </label>
+                </div>
+            </div>
+
+            <!-- API Tab -->
+            <div class="tab-content" id="api-tab">
+                <div class="form-group">
+                    <label for="api-key">API Key</label>
+                    <div class="input-with-button">
+                        <input type="password" id="api-key" name="apiKey" placeholder="sk-...">
+                        <button type="button" id="toggle-api-key" class="icon-btn">👁</button>
+                    </div>
+                    <small class="hint">Your OpenAI API key (stored securely)</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="api-endpoint">API Endpoint</label>
+                    <input type="url" id="api-endpoint" name="apiEndpoint" 
+                           value="https://api.openai.com/v1/chat/completions">
+                </div>
+
+                <div class="form-group">
+                    <label for="model">Model</label>
+                    <select id="model" name="model">
+                        <option value="gpt-4o-mini">GPT-4o Mini</option>
+                        <option value="gpt-4o">GPT-4o</option>
+                        <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="temperature">Temperature</label>
+                    <div class="range-container">
+                        <input type="range" id="temperature" name="temperature" 
+                               min="0" max="2" step="0.1" value="0.3">
+                        <span class="range-value">0.3</span>
+                    </div>
+                    <small class="hint">Lower = more focused, Higher = more creative</small>
+                </div>
+
+                <div class="form-group">
+                    <button type="button" id="test-api" class="btn-secondary">Test Connection</button>
+                    <div id="api-test-result" class="test-result"></div>
+                </div>
+            </div>
+
+            <!-- Hotkeys Tab -->
+            <div class="tab-content" id="hotkeys-tab">
+                <div class="form-group">
+                    <label for="translate-hotkey">Translate Hotkey</label>
+                    <div class="hotkey-input-container">
+                        <input type="text" id="translate-hotkey" name="translateHotkey" 
+                               placeholder="Press keys..." readonly>
+                        <button type="button" class="btn-secondary record-hotkey" 
+                                data-target="translate-hotkey">Record</button>
+                    </div>
+                    <div id="translate-hotkey-conflict" class="conflict-warning"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="cancel-hotkey">Cancel Hotkey</label>
+                    <div class="hotkey-input-container">
+                        <input type="text" id="cancel-hotkey" name="cancelHotkey" 
+                               placeholder="Press keys..." readonly>
+                        <button type="button" class="btn-secondary record-hotkey"
+                                data-target="cancel-hotkey">Record</button>
+                    </div>
+                    <div id="cancel-hotkey-conflict" class="conflict-warning"></div>
+                </div>
+
+                <div class="form-group">
+                    <h3>Alternative Hotkeys</h3>
+                    <small class="hint">Used when main hotkey conflicts with system</small>
+                    <div id="alternative-hotkeys"></div>
+                    <button type="button" id="add-alternative" class="btn-secondary">
+                        Add Alternative
+                    </button>
+                </div>
+            </div>
+
+            <!-- Prompts Tab -->
+            <div class="tab-content" id="prompts-tab">
+                <div class="form-group">
+                    <label for="active-prompt">Active Prompt Style</label>
+                    <select id="active-prompt" name="activePrompt">
+                        <option value="general">General</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="formal">Formal</option>
+                        <option value="academic">Academic</option>
+                        <option value="creative">Creative</option>
+                    </select>
+                </div>
+
+                <div class="prompt-editor">
+                    <h3>Edit Prompts</h3>
+                    <div id="prompt-list"></div>
+                </div>
+
+                <div class="form-group">
+                    <button type="button" id="add-custom-prompt" class="btn-secondary">
+                        Add Custom Prompt
+                    </button>
+                </div>
+            </div>
+
+            <!-- Limits Tab -->
+            <div class="tab-content" id="limits-tab">
+                <div class="form-group">
+                    <label for="max-text-length">Max Text Length</label>
+                    <input type="number" id="max-text-length" name="maxTextLength" 
+                           min="100" max="10000" value="5000">
+                    <small class="hint">Maximum characters per translation</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="requests-per-minute">Requests per Minute</label>
+                    <input type="number" id="requests-per-minute" name="requestsPerMinute" 
+                           min="1" max="100" value="30">
+                </div>
+
+                <div class="form-group">
+                    <label for="requests-per-day">Requests per Day</label>
+                    <input type="number" id="requests-per-day" name="requestsPerDay" 
+                           min="1" max="10000" value="500">
+                </div>
+
+                <div class="usage-stats">
+                    <h3>Current Usage</h3>
+                    <div class="stat-row">
+                        <span>Today:</span>
+                        <span id="usage-today">0 / 500</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>This minute:</span>
+                        <span id="usage-minute">0 / 30</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="usage-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <footer>
+            <button type="button" id="save-btn" class="btn-primary">Save</button>
+            <button type="button" id="cancel-btn" class="btn-secondary">Cancel</button>
+            <button type="button" id="reset-btn" class="btn-danger">Reset to Defaults</button>
+        </footer>
+    </div>
+
+    <script src="settings.js"></script>
+</body>
+</html>
